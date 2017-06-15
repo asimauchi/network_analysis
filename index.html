@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+    <title>Network | Les miserables</title>
+
+    <style type="text/css">
+        #mynetwork {
+            width: 900px;
+            height: 900px;
+            border: 1px solid lightgray;
+        }
+    </style>
+
+    <script type="text/javascript" src="./index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./vendor/vis.min.js"></script>
+    <link href="./css/vis.min.css" rel="stylesheet" type="text/css"/>
+
+</head>
+
+<body onload="draw()">
+<p>
+    Relations between the characters of "Les miserables".
+</p>
+
+<div id="mynetwork"></div>
+</body>
+</html>
